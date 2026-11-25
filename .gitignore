@@ -1,0 +1,16 @@
+cat > .gitignore <<'EOF'
+solar_env/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+secrets.toml
+.env
+*.pyc
+
+cat >> .gitignore <<'EOF'
+
+# Large files excluded from GitHub
+Solar_Analytics_Project.zip
+datasets/cleaned/household_consumption_cleaned.csv
+datasets/raw/household_power_consumption.txt
+EOF
